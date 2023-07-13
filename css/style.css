@@ -67,3 +67,115 @@ ul {
     margin-right: 43px;
     padding-top: 11px;
 }
+
+.top {
+    margin-bottom: 100px;
+}
+
+.top__box {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -100px;
+}
+
+.top__title {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 72px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #001E64;
+    padding-top: 176px;
+    margin-left: 112px;
+    margin-bottom: 130px;
+    max-width: 590px;
+}
+
+.top__slider {
+    max-width: 520px;
+    padding-top: 44px;
+    padding-left: 78px;
+    margin-left: 35px;
+}
+
+.top__slider-text {
+    max-width: 407px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.top__slider-link {
+    display: block;
+    max-width: 300px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 24px;
+    padding: 14px 88px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    margin-bottom: 55px;
+    transition: all .5s;
+}
+
+.top__slider-link:hover {
+    color :#001E64;
+    background-color: #FFF;
+}
+
+.top__slider-arrow-prev,
+.top__slider-arrow-next {
+    position: absolute;
+    left: 5px;
+    cursor: pointer;
+}
+
+.top__slider-arrow-prev {
+    top: 0;
+}
+
+.top__slider-arrow-next {
+    bottom: 0;
+}
+
+.top__slider .slick-dots {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top__slider .slick-dots button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.top__slider .slick-dots button::before {
+    content: '0';
+}
+
+.top__slider .slick-dots .slick-active button{
+    opacity: 1;
+}
+
+.language {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+    font-size: 18px;
+    color: #FFF;
+    transform: translateY(-15px);
+}
+
+.language__link--active {
+    font-weight: 700;
+}
