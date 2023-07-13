@@ -68,6 +68,26 @@ ul {
     padding-top: 11px;
 }
 
+.btn-burger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+    border: none;
+    margin-top: 14px;
+}
+
+.btn-burger span {
+    height: 2px;
+    background-color: #001E64;
+    width: 100%;
+}
+
 .top {
     margin-bottom: 100px;
 }

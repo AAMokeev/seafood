@@ -8,3 +8,10 @@ $(function(){
         autoplaySpeed: 3000,
     })
 });
+
+const menuBtn = document.querySelector('.btn-burger');
+const menuMobile = document.querySelector('.menu__list-mobile');
+
+menuBtn.addEventListener('click', ()=> {
+  menuMobile.classList.toggle('menu--open');
+});

@@ -1,0 +1,32 @@
+@media (max-width: 1000px) {
+    .btn-burger {
+        display: flex;
+    }
+
+    .menu {
+        order: 1;
+    }
+
+    .menu__list-mobile {
+        width: 50%;
+        background-color: #fff;
+        flex-direction: column;
+        padding-bottom: 20px;
+        text-align: center;
+        position: absolute;
+        left: 30%;
+        top: 0;
+        transform: translateY(-110%);
+        transition: transform 0.5s ease;
+        z-index: 5;
+    }
+
+    .menu__list-mobile.menu--open {
+        transform: translateY(0%);
+    }
+
+    .menu__list-item--active {
+        border: none;
+    }
+
+}
