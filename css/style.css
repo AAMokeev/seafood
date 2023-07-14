@@ -274,3 +274,23 @@ ul {
 .pluses__description-text + .pluses__description-text {
     margin-top: 30px;
 }
+
+.quote {
+    margin-bottom: 100px;
+}
+
+.quote__inner {
+    text-align: center;
+}
+
+.quote__img {
+    max-width: 100%;
+}
+
+.quote__text {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto Slab';
+}
