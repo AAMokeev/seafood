@@ -1,3 +1,17 @@
+@media (max-width: 1100px) {
+    .footer {
+        margin-bottom: 50px;
+    }
+    
+    .footer__inner {
+        justify-content: space-around;
+    }
+    
+    .menu {
+        display: none;
+    }
+}
+
 @media (max-width: 1000px) {
     .btn-burger {
         display: flex;
@@ -93,6 +107,7 @@
     .pluses__inner {
         padding: 200px 25px 50px;
     }
+
 }
 
 @media (max-width: 600px) {
@@ -131,6 +146,23 @@
 
     .contacts__list-item + .contacts__list-item {
         margin-top: 15px;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+
+    .social__list {
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    .footer {
+        margin-bottom: 30px;
+    }
+
+    .social__list {
+        margin-bottom: 0;
     }
 }
 
