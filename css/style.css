@@ -339,3 +339,36 @@ ul {
 .contacts__item-text span {
     display: block;
 }
+
+.footer {
+    margin-bottom: 100px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.social__list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.footer__menu-list {
+    margin-bottom: 35px;
+}
+
+.footer-menu__item-link {
+    color: #232222;
+}
+
+.social__list-link path{
+    transition: fill 0.5s;
+}
+
+.social__list-link:hover path {
+    fill: #001E64;
+}
