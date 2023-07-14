@@ -199,3 +199,78 @@ ul {
 .language__link--active {
     font-weight: 700;
 }
+
+.pluses {
+    margin-bottom: 100px;
+}
+
+.pluses__box {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pluses__inner {
+    padding: 254px 90px 98px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.pluses__item {
+    background-image: url(../images/shell.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pluses__info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.pluses__info-item:nth-child(even) {
+    flex-direction: row-reverse;
+    margin-right: 180px;
+}
+
+.pluses__info-description {
+    padding-right: 20px;
+}
+
+.pluses__info-item:nth-child(even) .pluses__info-description {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.pluses__description-title {
+    font-family: 'Roboto Slab';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #001E64;
+    margin-bottom: 30px;
+}
+
+.pluses__description-title:nth-child(n+2) {
+    margin-top: 50px;
+}
+
+.pluses__description-text {
+    max-width: 420px;
+}
+
+.pluses__description-text + .pluses__description-text {
+    margin-top: 30px;
+}
