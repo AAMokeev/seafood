@@ -294,3 +294,48 @@ ul {
     font-size: 18px;
     font-family: 'Roboto Slab';
 }
+
+.contacts {
+    margin-bottom: 30px;
+}
+
+.contacts__box {
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.contacts__inner {
+    padding: 30px 45px 30px 20px;
+    background-color: #FFF;
+    max-width: 340px;
+    margin-left: auto;
+}
+
+.contacts__title {
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #001E64;
+    margin-bottom: 30px;
+}
+
+.contacts__list-item + .contacts__list-item {
+    margin-top: 30px;
+}
+
+.contacts__item-link {
+    transition: color .5s;
+}
+
+.contacts__item-link:hover {
+    color: #001E64;
+}
+
+.contacts__item-text {
+    font-size: 18px;
+}
+
+.contacts__item-text span {
+    display: block;
+}
