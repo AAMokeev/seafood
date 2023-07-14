@@ -7,7 +7,7 @@
         justify-content: space-around;
     }
     
-    .menu {
+    .menu__footer {
         display: none;
     }
 }
