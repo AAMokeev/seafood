@@ -5,7 +5,16 @@ $(function(){
         dots: true,
         vertical: true,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 3000, 
+        responsive: [
+          {
+            breakpoint: 481,
+            settings: {
+              dots: false,
+              arrows: false,
+            }
+          }
+        ]
     })
 });
 

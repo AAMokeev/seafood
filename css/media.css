@@ -30,3 +30,36 @@
     }
 
 }
+
+@media (max-width: 700px) {
+    .top__title {
+        margin-left: 30px;
+        font-size: 58px;
+        margin-bottom: 55px;
+        padding-top: 130px;
+    }
+}
+
+@media (max-width: 600px) {
+    .language {
+        transform: translateY(10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .top__slider {
+        padding-left: 0;
+        padding-top: 10px;
+        margin-left: 10px;
+    }
+
+    .top__title {
+        font-size: 37px;
+        margin-left: 10px;
+    }
+
+    .top__slider-link {
+        width: 250px;
+        padding: 14px 68px;
+    }
+}
