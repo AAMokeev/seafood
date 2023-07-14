@@ -78,7 +78,8 @@
 @media (max-width: 700px) {
     .top,
     .pluses,
-    .pluses__inner {
+    .pluses__inner,
+    .quote {
         margin-bottom: 50px;
     }
 
