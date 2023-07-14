@@ -115,6 +115,23 @@
     .pluses__description-text + .pluses__description-text {
         margin-top: 15px;
     }
+
+    .contacts__box {
+        background-image: none;
+    }
+
+    .contacts__inner {
+        margin-left: 0;
+        padding: 15px 45px 15px 20px;
+    }
+    
+    .contacts__title {
+        margin-bottom: 15px;
+    }
+
+    .contacts__list-item + .contacts__list-item {
+        margin-top: 15px;
+    }
 }
 
 @media (max-width: 480px) {
