@@ -15,7 +15,25 @@ $(function(){
             }
           }
         ]
-    })
+    });
+
+    $('.select__slider').slick({
+      prevArrow: '<img src="images/blue_arrow-prev.svg" alt="" class="select__slider-arrow-prev">',
+      nextArrow: '<img src="images/blue_arrow-next.svg" alt="" class="select__slider-arrow-next">',
+      vertical: true,
+      slidesToShow: 6,
+      focusOnSelect: true,
+      slidesToScroll: 1,
+      asNavFor: '.product__slider',
+  });
+
+  $('.product__slider').slick({
+    arrows: false,
+    fade: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    asNavFor: '.select__slider',
+})
 });
 
 const menuBtn = document.querySelector('.btn-burger');
