@@ -25,6 +25,26 @@ $(function(){
       focusOnSelect: true,
       slidesToScroll: 1,
       asNavFor: '.product__slider',
+      responsive: [
+        {
+          breakpoint: 1001,
+          settings: {
+            dots: true,
+            arrows: false,
+            vertical: false,
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 481,
+          settings: {
+            dots: true,
+            arrows: false,
+            vertical: false,
+            slidesToShow: 1,
+          }
+        }
+      ]
   });
 
   $('.product__slider').slick({
